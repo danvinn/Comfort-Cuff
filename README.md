@@ -1,4 +1,4 @@
-## 🩸 Smart Blood Pressure Monitor **ComfortCuff**
+## 🩸 Smart Blood Pressure Monitor | ComfortCuff
 
 ### Problem Statement 🚨
 
