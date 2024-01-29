@@ -28,8 +28,6 @@ The HC-05 Bluetooth module establishes a wireless link between the Arduino and a
 
 Our motor control system offers versatility and remote controllability, making it adaptable for various applications. The modular design allows for future enhancements, ensuring longevity and customization based on specific needs.
 
-![Motor Control System](Users\Daniel\Downloads\comfortcuff.jpg)
-
 ### Hardware Implementation 🛠️
 
 Components:
