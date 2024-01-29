@@ -53,5 +53,3 @@ In conclusion, our project addresses challenges in blood pressure monitoring wit
 ### Citations 📚
 
 Booth III, John N., et al. “Proportion of US Adults Recommended Out-of-Clinic Blood Pressure Monitoring According to the 2017 Hypertension Clinical Practice Guidelines.” Hypertension (Dallas, Tex. : 1979), U.S. National Library of Medicine, pubmed.ncbi.nlm.nih.gov/31230550/. Accessed 28 Jan. 2024. 
-
-Feel free to customize the emojis and wording to better fit your style!
