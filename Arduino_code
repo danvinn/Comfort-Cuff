@@ -1,0 +1,39 @@
+const int in3 = 8;        // Connect to IN3 on L298N
+const int in4 = 9;        // Connect to IN4 on L298N
+const int enablePin = 10;  // Connect to ENA on L298N
+
+char Incoming_value = 0;
+
+void setup() 
+{
+  Serial.begin(9600);         
+  pinMode(13, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
+  pinMode(enablePin, OUTPUT);
+}
+
+void loop()
+{
+  if(Serial.available() > 0)  
+  {
+    Incoming_value = Serial.read();      
+    Serial.print(Incoming_value);        
+    Serial.print("\n");        
+    if(Incoming_value == '1')             
+      motorControl(255, LOW, HIGH);  
+    else if(Incoming_value == '0') {
+      motorControl(128, HIGH, LOW);
+      delay(5000);
+    }
+  }                            
+}
+
+void motorControl(int speed, int direction1, int direction2) {
+  // Set motor speed
+  analogWrite(enablePin, speed);
+
+  // Set motor direction
+  digitalWrite(in3, direction1);
+  digitalWrite(in4, direction2);
+}
